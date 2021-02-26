@@ -11,6 +11,8 @@
 
 > Move.It is a application Moverit is an application that encourages you to exercise after long hours of work in a fun and dynamic way.
 
+<img alt="logo" src="https://github.com/daniellvaz/NLW4/blob/main/public/logo-full.svg" />
+
 ## Install
 
 ```sh
