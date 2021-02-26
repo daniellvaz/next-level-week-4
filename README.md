@@ -37,7 +37,7 @@ Pronto, agora é só se divertir! 🚀🔥😀
 
 ## Conteúdo abordado
 * SPA
-* Service-side hanler
+* Service-side handler
 * Context
 * Estado
 * Components
