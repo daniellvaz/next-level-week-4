@@ -32,21 +32,22 @@ Pronto, agora é só se divertir! 🚀🔥😀
 
 ## Técnologias
 
-```sh
-Para usar esse projeto em localhost:
+* Typescript
+* Next.js
 
-* git clone https://github.com/daniellvaz/nlw4.git moveit [ou o nome e sua preferencia]
-* cd moveit
-* yarn (para instalar as denpências)
-* yarn dev (para subir o servidor local que esta rodando em: http://localhost:300)
+## Conteúdo abordado
+* SPA
+* Service-side hanler
+* Context
+* Estado
+* Components
 
-Pronto, agora é só se divertir! 🚀🔥😀
-```
+## Como me encontrar
 
 * Website: www.daniellvaz.com
 * Twitter: [@daniellmvaz](https://twitter.com/daniellmvaz)
 * Github: [@daniellvaz](https://github.com/daniellvaz)
-* LinkedIn: [@Daniel Murilo Vaz](https://linkedin.com/in/Daniel Murilo Vaz)
+* LinkedIn: [@daniellvaz](https://linkedin.com/in/Daniel Murilo Vaz)
 
 ## Show your support
 
