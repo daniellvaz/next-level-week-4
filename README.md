@@ -9,28 +9,45 @@
   </a>
 </p>
 
-> Move.It is a application Moverit is an application that encourages you to exercise after long hours of work in a fun and dynamic way.
+## O Projeto
 
-## Install
+> O movi.it é uma aplicação voltada as pessoas que passam grande parte do seu dia sentados, trabalhando
+> enfrente a um computador. De uma maneira divertida e dinâmica, sugere ao usuário um exercício que quando
+> completado ganha pontos e sobe de nível dentro da plataforma.
+
+<img alt="logo" src="https://github.com/daniellvaz/NLW4/blob/main/Frame%201.svg" />
+
+## Como utilizar
 
 ```sh
-yarn install or npm install
+Para usar esse projeto em localhost:
+
+* git clone https://github.com/daniellvaz/nlw4.git moveit [ou o nome e sua preferencia]
+* cd moveit
+* yarn (para instalar as denpências)
+* yarn dev (para subir o servidor local que esta rodando em: http://localhost:300)
+
+Pronto, agora é só se divertir! 🚀🔥😀
 ```
 
-## Usage
+## Técnologias
 
-```sh
-yarn dev
-```
+* Typescript
+* Next.js
 
-## Author
+## Conteúdo abordado
+* SPA
+* Service-side handler
+* Context
+* Estado
+* Components
 
-👤 **Rocketseat**
+## Como me encontrar
 
 * Website: www.daniellvaz.com
 * Twitter: [@daniellmvaz](https://twitter.com/daniellmvaz)
 * Github: [@daniellvaz](https://github.com/daniellvaz)
-* LinkedIn: [@Daniel Murilo Vaz](https://linkedin.com/in/Daniel Murilo Vaz)
+* LinkedIn: [@daniellvaz](https://linkedin.com/in/Daniel Murilo Vaz)
 
 ## Show your support
 
