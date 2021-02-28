@@ -33,13 +33,13 @@ async function handleLogin(code, client_id, client_secret) {
     name: user.name,
     image: user.login,
     twitter: user.twitter_username,
+    isAuth: true
   }
 
   return { userData }
 }
 
 export default async (request: NowRequest, response: NowResponse) => {
-  
 
   if(!request.query) {
     response.redirect(`https://github.com/login/oauth/authorize?client_id=${client_id}`);
@@ -49,5 +49,7 @@ export default async (request: NowRequest, response: NowResponse) => {
 
   const { userData } = await handleLogin(code, client_id, client_secret);
 
-  response.redirect(`/dashboard/?name=${userData.name}&image=${userData.image}&twitter=${userData.twitter}`)
+  response.redirect(`/loading/?name=${userData.name}&image=${userData.image}&twitter=${userData.twitter}`);
+
+  return userData
 }

@@ -1,0 +1,107 @@
+.levelModelContainer {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background-color: rgba(197, 194, 194, 0.5);
+}
+
+.levelModelContainer > div {
+  width: 400px;
+  height: 350px;
+  background-color: var(--white);
+  
+  border-radius: 5px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.levelModelContainer > div > header  {
+  width: 100%;
+  height: 2rem;
+
+  margin-top: 1rem;
+}
+
+.levelModelContainer > div > header > button {
+  width: 1.5rem;
+  height: 1.5rem;
+  margin-left: 90%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background-color: transparent;
+
+  border: none;
+}
+
+.levelModelContainer > div > main {
+  width: 100%;
+  height: 70%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center ;  
+}
+
+.levelModelContainer > div > main > div {
+  width: 100%;
+  height: 60%;
+  background: url('/icons/levelup.svg') no-repeat center;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.levelModelContainer > div > main > strong {
+  font-size: 2rem;
+}
+
+.levelModelContainer > div > main > div > h1 {
+  font-size: 4rem;
+  font-weight: 600;
+  color: var(--blue);
+}
+
+.levelModelContainer > div > footer {
+  width: 100%;
+  height: 100%;
+
+  background-color: #F5FCFF;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.levelModelContainer > div > footer  > button {
+  width: 60%;
+  height: 3rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border: 0;
+  background-color: transparent;
+
+  font-size: 12px;
+
+  color: var(--blue-twitter);
+}
+
+.levelModelContainer > div > footer  > button > svg {
+  margin-left: 2%;
+}
