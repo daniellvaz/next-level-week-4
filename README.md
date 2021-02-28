@@ -15,7 +15,7 @@
 > enfrente a um computador. De uma maneira divertida e dinâmica, sugere ao usuário um exercício que quando
 > completado ganha pontos e sobe de nível dentro da plataforma.
 
-<img alt="logo" src="https://github.com/daniellvaz/NLW4/blob/main/Frame%201.svg" />
+<img alt="logo" src="https://github.com/daniellvaz/NLW4/blob/main/public/image.svg" />
 
 ## Como utilizar
 
